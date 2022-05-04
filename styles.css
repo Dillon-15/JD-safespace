@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  background-color: black;
+}
+
+.custom-size {
+  width: auto;
+  height: 115px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */

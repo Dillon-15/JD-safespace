@@ -1,10 +1,73 @@
 body {
-  background-color: black;
+  background-color: #5f478e;
 }
 
 .custom-size {
   width: auto;
   height: 115px;
   border-radius: 50%;
+}
+
+.link-custom {
+  color: white;
+  font-size: 1.3em;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.link-custom:hover {
+  color: #c1c1c1;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.border-custom {
+  width: 95%;
+  margin: auto;
+  border-bottom: 1px solid white;
+}
+
+.custom-color {
+  background-color: white;
+}
+
+.dropdown-item-custom {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #5f478e;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item-custom:hover {
+  color: #5f478e;
+}
+
+.mission {
+  background-image: radial-gradient(white, #5f478e 70%);
+  text-align: center;
+  padding: 15px 20px 15px 20px;
+}
+
+.images {
+  width: 65%;
+}
+
+footer {
+  background-color: black;
 }
 /*# sourceMappingURL=styles.css.map */

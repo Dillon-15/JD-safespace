@@ -70,4 +70,41 @@ body {
 footer {
   background-color: black;
 }
+
+h1, h3, p {
+  color: white;
+}
+
+.main:not([size]) {
+  background-color: white;
+  height: 5px;
+  border: none;
+  opacity: 100%;
+  margin: 1rem 0;
+}
+
+.sub:not([size]) {
+  background-color: white;
+  height: 3px;
+  border: none;
+  opacity: 100%;
+  margin: 1rem;
+}
+
+.custom-mar {
+  margin: auto;
+}
+
+.footer-item-custom, .footer-item-custom:hover, .footer-item-custom:visited {
+  color: #dadbda;
+  text-decoration: none;
+  margin: 0px 5px 0px 5px;
+}
+
+.link-logo, .link-logo:visited, .link-logo:hover {
+  font-size: 50px;
+  color: #dadbda;
+  text-decoration: none;
+  margin: 0px 5px 0px 5px;
+}
 /*# sourceMappingURL=styles.css.map */

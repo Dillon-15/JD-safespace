@@ -58,7 +58,7 @@ body {
 }
 
 .mission {
-  background-image: radial-gradient(white, #5f478e 70%);
+  background-image: radial-gradient(black, #5f478e 70%);
   text-align: center;
   padding: 15px 20px 15px 20px;
 }
